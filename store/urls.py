@@ -29,6 +29,7 @@ urlpatterns = [
 
     path('supplier-list/', SupplierListView.as_view(), name='supplier-list'),
     path('buyer-list/', BuyerListView.as_view(), name='buyer-list'),
+
     path('season-list/', SeasonListView.as_view(), name='season-list'),
     path('drop-list/', DropListView.as_view(), name='drop-list'),
     path('product-list/', ProductListView.as_view(), name='product-list'),
