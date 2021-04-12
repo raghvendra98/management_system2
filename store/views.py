@@ -202,7 +202,6 @@ def create_delivery(request):
             return redirect('delivery-list')
     context = {
         'form': forms
-
     }
     return render(request, 'store/create_delivery.html', context)
 
